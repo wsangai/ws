@@ -1,0 +1,16 @@
+{
+  "name": "ws/ws",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/",
+      "service\\": "app/service/"
+    },
+    "files": [
+      "app/helpers/function.php"
+    ]
+  }
+}
