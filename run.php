@@ -2,4 +2,5 @@
 
 require_once  './vendor/autoload.php';
 
-\service\HttpServer::start();
+(new \service\HttpServer())->start();
+(new \service\HttpServer())->onrequest();
