@@ -50,6 +50,7 @@ class config
 
         $config = [];
         $filePath = self::$appPath . 'config/' . $file . '.php';
+        echo $filePath;
         if (\file_exists($filePath)) {
             $config = include_once($filePath);
         }
