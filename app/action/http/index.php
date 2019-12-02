@@ -6,9 +6,7 @@ class index
 {
     public function index($request,$response)
     {
-        $i= 1;
-        $i++;
-        $arr[] = $i;
+        $arr = \service\artisan\config::get('app');
         print_r($arr);
 //        print_r(json_encode(compact('request','response')));
     }

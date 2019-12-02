@@ -1,4 +1,10 @@
 <?php
+
+function config()
+{
+
+}
+
 /**
  * 转array
  * @param
